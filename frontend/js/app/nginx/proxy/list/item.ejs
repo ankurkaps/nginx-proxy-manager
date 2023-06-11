@@ -4,6 +4,9 @@
     </div>
 </td>
 <td>
+    <div><%- i18n('audit-log', 'proxy-host') %> #<%- id %></div>
+</td>
+<td>
     <div class="wrap">
         <% domain_names.map(function(host) {
             if (host.indexOf('*') === -1) {
